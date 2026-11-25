@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: priorauth
+      POSTGRES_PASSWORD: priorauth
+      POSTGRES_DB: priorauth
+    ports:
+      - "5432:5432"
